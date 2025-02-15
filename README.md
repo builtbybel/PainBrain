@@ -4,6 +4,9 @@
 
 This project started as a personal tool to archive documents using Tesseract OCR. Over time, I supercharged it with a deep learning model to generate rich, natural-language descriptions of screen captures. For anyone who doesn’t want to splurge on a Copilot+PC (the only way to get the original Microsoft Recall), this replica is available for you to test right on your desktop!
 
+
+![WinRecallApp_DdXXQX9YtK](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
+
 ---
 
 ## Features
@@ -18,7 +21,26 @@ Uses **BLIP** (via the Hugging Face Transformers library) to generate detailed, 
 Indexes the screenshot file paths, AI-generated descriptions, and timestamps in a local SQLite database, making it super easy to search and retrieve past captures based on keywords. Find your screenshots without any hassle.
 
 ---
+## How It Works
 
+1. **Capture Mode:**
+   - The app currently **captures only the main screen** at regular intervals (every few seconds).
+   
+2. **Processing & Description:**
+   - After each screenshot is captured, **it may take a few seconds** for the app to generate an AI-powered description using the BLIP model. During this time, the app processes the image and creates a textual description.
+   
+3. **Indexing for Search:**
+   - Once the description is generated, it is **indexed and stored** in a local SQLite database along with the file path and timestamp of the screenshot. This enables you to easily search and find screenshots later based on keywords from the descriptions.
+
+4. **Control the Capture Process:**
+   - **Start the process** by clicking the "Capture" button. This begins the periodic screenshot capturing and description generation.
+   - **Stop the process** by clicking the "Stop" button at any time. This halts the screenshot capturing.
+
+5. **Database Management:**
+   - You can **clear the database** anytime via the option at the bottom-right of the app.
+   - **Adjust image previews** to fit your preferences.
+
+---
 ## How to Run
 
 Before running the app, simply execute the provided `setup.bat` file. This batch file will:

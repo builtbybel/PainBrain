@@ -42,31 +42,37 @@ Indexes the screenshot file paths, AI-generated descriptions, and timestamps in 
 
 ---
 
-## How to Run
+# **How to Run**
 
-Before running the app, simply execute the provided `setup.bat` file. This batch file will:
-
-1. Check if Python is installed.
-2. If Python isn't found, it will guide you through the installation process.
-3. Upgrade `pip` and install the required packages.
-
-If Python is already set up, just run `WinRecallApp.exe` and you’re good to go!
+1. Start **WinRecallApp.exe**.
+2. If Python is missing, click the **"Setup Environment"** button in the bottom left corner.
+3. The app will automatically install Python (if needed) and set up all required dependencies.
+4. Once the setup is complete, restart the app and you're ready to go!
 
 ---
 
-## Installation
+## **Installation (Automatic Setup)**
 
-Simply run the provided `setup.bat` file to install everything you need to get WinRecall up and running.
+Just start the app and click **"Setup Environment"** if prompted.  
+The setup will:  
 
-The batch script will:
-1. Check if Python is installed on your system.
-2. If Python is not installed, it will download and install Python, **automatically adding it to your PATH** (ensure the "Add Python to PATH" option is selected during installation).
-3. Upgrade `pip` to the latest version.
-4. Install all required Python packages (`transformers`, `torch`, `pillow`).
+- ✅ Check if Python is installed.  
+- ✅ Install Python (if missing) and **automatically add it to PATH** (make sure to select "Add Python to PATH" during installation).  
+- ✅ Upgrade `pip` to the latest version.  
+- ✅ Install all required Python packages (`transformers`, `torch`, `pillow`).  
 
-If you'd prefer to manually install the dependencies, you can do so by running the following commands in your terminal:
+---
 
-```bash
-pip install transformers torch pillow
+## **Manual Installation (Optional)**
+
+If you prefer, you can install everything manually by following these steps:  
+
+1. Check if Python is installed on your system.  
+2. If Python is not installed, [download and install it](https://www.python.org/downloads/), ensuring that **"Add Python to PATH"** is selected.  
+3. Open a terminal or command prompt and upgrade `pip`:  
+
+   ```bash
+   python pip install transformers torch pillow
+
 
 

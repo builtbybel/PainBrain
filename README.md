@@ -8,7 +8,7 @@ This project started as a personal tool to archive documents using Tesseract OCR
 
 ## Features
 
-### 🖼Automated Screenshot Capture
+### Automated Screenshot Capture
 Periodically captures your screen (every few seconds) and saves the images in a dedicated folder.
 
 ### AI-Powered Image Descriptions

@@ -41,6 +41,22 @@ Indexes the screenshot file paths, AI-generated descriptions, and timestamps in 
    - **Adjust image previews** to fit your preferences.
 
 ---
+## Installation
+
+Simply run the provided `setup.bat` file to install everything you need to get WinRecall up and running. 
+
+The batch script will:
+1. Check if Python is installed on your system.
+2. If Python is not installed, it will download and install Python, automatically adding it to your PATH.
+3. Upgrade `pip` to the latest version.
+4. Install all required Python packages.
+
+If you'd prefer to manually install the dependencies, you can do so by running the following commands:
+
+```bash
+pip install transformers torch pillow
+
+---
 ## How to Run
 
 Before running the app, simply execute the provided `setup.bat` file. This batch file will:
@@ -64,11 +80,3 @@ If Python is already set up, just run `WinRecallApp.exe` and you’re good to go
 - **torch**: The deep learning framework (PyTorch) that powers the model.
 - **Pillow**: A powerful imaging library for Python.
 
----
-
-## Installation
-
-Simply run the provided `setup.bat` file to install everything you need to get WinRecall up and running. If you prefer, you can install the dependencies manually by running:
-
-```bash
-pip install transformers torch pillow

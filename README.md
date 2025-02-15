@@ -28,12 +28,10 @@ This project started as my personal tool to archive documents using Tesseract OC
 
 ## **Installation**  
 
-Run **WinRecallApp.exe** and click **"Setup Environment"** if Python is missing. The setup will:  
+Run **WinRecallApp.exe** and click the **"Setup Environment"** button in the bottom left corner.
 
-1. Start **WinRecallApp.exe**.
-2. If Python is missing, click the **"Setup Environment"** button in the bottom left corner.
-3. The app will automatically install Python (if needed) and set up all required dependencies.
-4. Once the setup is complete, restart the app and you're ready to go!
+1. The app will automatically install Python (if needed) and set up all required dependencies.
+2. Once the setup is complete, restart the app and you're ready to go!
 
 ### **Manual Installation (Optional)**  
 

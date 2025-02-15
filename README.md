@@ -33,6 +33,8 @@ Run **WinRecallApp.exe** and click the **"Setup Environment"** button in the bot
 1. The app will automatically install Python (if needed) and set up all required dependencies.
 2. Once the setup is complete, restart the app and you're ready to go!
 
+---
+
 ### **Manual Installation (Optional)**  
 
 If you prefer, you can install everything manually by following these steps:  

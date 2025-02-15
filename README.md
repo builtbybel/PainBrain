@@ -1,6 +1,6 @@
 # WinRecall
 
-**WinRecall** is a local and portalble desktop application that periodically captures screenshots of your screen, uses AI (via [BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions for each image, and allows you to search and retrieve those screenshots based on their generated descriptions—all running locally on your machine.
+**WinRecall** is a local and portalble desktop app that periodically captures screenshots of your screen, uses AI (via [BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions for each image, and allows you to search and retrieve those screenshots based on their generated descriptions
 
 This project started as a personal tool to archive documents using Tesseract OCR. Over time, I supercharged it with a deep learning model to generate rich, natural-language descriptions of screen captures. For anyone who doesn’t want to splurge on a Copilot+PC (the only way to get the original Microsoft Recall), this replica is available for you to test right on your desktop!
 

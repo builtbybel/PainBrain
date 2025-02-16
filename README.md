@@ -1,10 +1,12 @@
-# **WinRecall**
+# **ProjectMnemonic**
 
-**WinRecall** is a lightweight and portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search your captures effortlessly, all running locally on your machine.  
+**ProjectMnemonic** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
 
-This project started as my personal tool to archive documents using Tesseract OCR. Over time, I supercharged it with a deep learning model to generate rich, natural-language descriptions of your screen captures.  If you don’t want to spend big on a Copilot+PC (the only way to get Microsoft Recall), this is your open alternative..
+Right now, I’m running this project under the name **“ProjectMnemonic”** (yep, still looking for the perfect name, so this is temporary). And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
 
-![WinRecallApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)  
+What started as my personal tool for archiving documents using **Tesseract OCR** has evolved over time with a deep learning model to generate rich, natural-language descriptions of your screenshots. So, if you don’t want to spend a fortune on a Copilot+PC (the only way to get Microsoft Recall), this is your **open-source** alternative.
+
+![ProjectMnemonicApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
 
 ---
 
@@ -12,8 +14,8 @@ This project started as my personal tool to archive documents using Tesseract OC
 
 - **Automatic Screenshot Capture** – Periodically captures your screen and saves the images.  
 - **AI-Powered Descriptions** – Uses **BLIP** to generate rich, natural-language descriptions.  
-- **Instant Search** – Find screenshots easily via keyword-based search.  
-- **Local & Private** – Everything runs **on your device**, no cloud processing.  
+- **Instant Search** – Easily search through your screenshots using keywords.  
+- **Local & Private** – Everything runs **on your device**, with no cloud processing involved.  
 
 ---
 
@@ -21,25 +23,25 @@ This project started as my personal tool to archive documents using Tesseract OC
 
 1. **Capture & Process:** The app **captures your main screen** at regular intervals.  
 2. **AI Descriptions:** Each screenshot is analyzed, and a detailed **text description** is generated.  
-3. **Search & Retrieve:** Screenshots and descriptions are indexed in a local **SQLite database**, making them searchable by keywords.  
-4. **Controls:** Click **"Capture"** to start, **"Stop"** to pause, and manage saved images via the database settings.  
+3. **Search & Retrieve:** Screenshots and their descriptions are indexed in a local **SQLite database**, making them searchable by keywords.  
+4. **Controls:** Hit **"Capture"** to start, **"Stop"** to pause, and manage your saved images through the database settings.  
 
 ---
 
 ## **Installation**  
 
-Run **WinRecallApp.exe** and click the **"Setup Environment"** button in the bottom left corner.
+Run **ProjectMnemonicApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
 
-1. The app will automatically install Python (if needed) and set up all required dependencies.
-2. Once the setup is complete, restart the app and you're ready to go!
+1. The app will automatically install Python (if needed) and set up all the required dependencies.
+2. Once everything’s set up, restart the app and you’re good to go!
 
 ---
 
 ### **Manual Installation (Optional)**  
 
-If you prefer, you can install everything manually by following these steps:  
+If you prefer to install everything manually, here are the steps:  
 
-1. Install [Python](https://www.python.org/downloads/) (ensuring that **"Add Python to PATH"** is selected).  
+1. Install [Python](https://www.python.org/downloads/) (make sure to check **"Add Python to PATH"** during installation).  
 2. Open a terminal and run:  
 
    ```bash

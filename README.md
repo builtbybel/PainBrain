@@ -1,12 +1,12 @@
-# **WinRecall (ProjectMnemonic)**
+# **PainBrain (ProjectMnemonic)**
 
-**WinRecall** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
+**PainBrain** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
 
-Right now, I’m running this project under the name **“WinRecall”** (yep, still looking for the perfect name, so this is temporary). And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
+Right now, I’m running this project under the name **“PainBrain”** (yep, still looking for the perfect name, so this is temporary). And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
 
 What started as my personal tool for archiving documents using **Tesseract OCR** has evolved over time with a deep learning model to generate rich, natural-language descriptions of your screenshots. So, if you don’t want to spend a fortune on a Copilot+PC (the only way to get Microsoft Recall), this is your **open-source** alternative.
 
-![WinRecallApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
+![PainBrainApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
 
 ---
 
@@ -30,7 +30,7 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 
 ## **Installation**  
 
-Run **WinRecallApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
+Run **PainBrainApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
 
 1. The app will automatically install Python (if needed) and set up all the required dependencies.
 2. Once everything’s set up, restart the app and you’re good to go!

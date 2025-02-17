@@ -2,7 +2,7 @@
 
 **PaneBrain** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
 
-Right now, I’m running this project under the name **“PaneBrain”**. And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
+Right now, I’m running this project under the name **“PaneBrain”** or **“Panebrain”** . And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
 
 What started as my personal tool for archiving documents using **Tesseract OCR** has evolved over time with a deep learning model to generate rich, natural-language descriptions of your screenshots. So, if you don’t want to spend a fortune on a Copilot+PC (the only way to get Microsoft Recall), this is your **open-source** alternative.
 

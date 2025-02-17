@@ -1,4 +1,5 @@
-# PaneBrain (ProjectMnemonic)
+# PaneBrain 
+(ProjectMnemonic)
 
 **PaneBrain** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
 

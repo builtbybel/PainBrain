@@ -1,4 +1,4 @@
-# **PaneBrain (ProjectMnemonic)**
+# PaneBrain (ProjectMnemonic)
 
 **PaneBrain** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
 
@@ -10,7 +10,7 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 
 ---
 
-## **Features**  
+## Features
 
 - **Automatic Screenshot Capture** – Periodically captures your screen and saves the images.  
 - **AI-Powered Descriptions** – Uses **BLIP** to generate rich, natural-language descriptions.  
@@ -18,7 +18,7 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 
 ---
 
-## **How It Works**  
+## How It Works
 
 1. **Capture & Process:** The app **captures your main screen** at regular intervals.  
 2. **AI Descriptions:** Each screenshot is analyzed, and a detailed **text description** is generated.  
@@ -27,7 +27,7 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 
 ---
 
-## **Installation**  
+## Installation
 
 Run **PaneBrainApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
 
@@ -36,13 +36,35 @@ Run **PaneBrainApp.exe**, then click the **"Setup Environment"** button in the b
 
 ---
 
-### **Manual Installation (Optional)**  
+### Manual Installation (Optional)
 
 If you prefer to install everything manually, here are the steps:  
 
 1. Install [Python](https://www.python.org/downloads/) (make sure to check **"Add Python to PATH"** during installation).  
 2. Open a terminal and run:  
 
-   ```bash
+```
    python -m pip install --upgrade pip
    pip install transformers torch pillow
+```
+
+<details>
+<summary> (Optional) Run BLIP Image Captioning Model Locally</summary>
+
+### 1. Clone the BLIP Model Repository
+
+Fork and clone the BLIP model from Hugging Face:
+
+```
+git clone https://huggingface.co/Salesforce/blip-image-captioning-base
+```
+### 2. Modify describe_image.py
+In Panebrain/describe_image.py file, change lines 9-10 to load the model locally:
+
+### 3. Initialize the model and processor
+```
+processor = BlipProcessor.from_pretrained("./blip-image-captioning-base")
+model = BlipForConditionalGeneration.from_pretrained("./blip-image-captioning-base")
+```
+This will use the locally downloaded files instead of fetching the model from the cloud.
+</details>

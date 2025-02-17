@@ -1,7 +1,7 @@
 # PaneBrain 
 (ProjectMnemonic)
 
-This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  So while it’s not a Microsoft Recall, it’s still got that recall vibe ( this is the first release) – all without the scary data-hungry vibes. And trust me, you can count on this. 
+This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  So while it’s not a Microsoft Recall, it’s still got that recall vibe ( this is the first release)
 
 Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract. 
 

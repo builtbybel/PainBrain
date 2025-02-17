@@ -61,7 +61,6 @@ git clone https://huggingface.co/Salesforce/blip-image-captioning-base
 ### 2. Modify describe_image.py
 In Panebrain/describe_image.py file, change lines 9-10 to load the model locally:
 
-### 3. Initialize the model and processor
 ```
 processor = BlipProcessor.from_pretrained("./blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("./blip-image-captioning-base")

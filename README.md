@@ -33,7 +33,7 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 Run **PaneBrainApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
 
 1. The app will automatically install Python (if needed) and set up all the required dependencies.
-2. Once everything’s set up, restart the app and you’re good to go!
+2. Once everything’s set up, restart the pc and you’re good to go!
 
 ---
 

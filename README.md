@@ -1,22 +1,15 @@
 # PaneBrain 
 (ProjectMnemonic)
 
-**PaneBrain** is a lightweight, portable desktop app that captures screenshots, uses AI ([BLIP](https://github.com/salesforce/BLIP)) to generate detailed descriptions, and lets you search through your captures with ease – all running **locally** on your machine.
+This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  So while it’s not a Microsoft Recall, it’s still got that recall vibe ( this is the first release) – all without the scary data-hungry vibes. And trust me, you can count on this. 
+
+Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract. 
 
 Right now, I’m running this project under the name **“PaneBrain”** or **“Panebrain”** . And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
 
 What started as my personal tool for archiving documents using **Tesseract OCR** has evolved over time with a deep learning model to generate rich, natural-language descriptions of your screenshots. So, if you don’t want to spend a fortune on a Copilot+PC (the only way to get Microsoft Recall), this is your **open-source** alternative.
 
 ![PaneBrainApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
-
----
-
-## Features
-
-- **Automatic Screenshot Capture** – Periodically captures your screen and saves the images.  
-- **AI-Powered Descriptions** – Uses **BLIP** to generate rich, natural-language descriptions.  
-- **Instant Search** – Easily search through your screenshots using keywords.
-- **Nothing is sent to the cloud or Microsoft**
 
 ---
 

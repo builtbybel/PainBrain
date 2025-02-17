@@ -15,7 +15,6 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 - **Automatic Screenshot Capture** – Periodically captures your screen and saves the images.  
 - **AI-Powered Descriptions** – Uses **BLIP** to generate rich, natural-language descriptions.  
 - **Instant Search** – Easily search through your screenshots using keywords.  
-- **Local & Private** – Everything runs **on your device**, with no cloud processing involved.  
 
 ---
 

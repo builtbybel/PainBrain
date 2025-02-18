@@ -1,15 +1,15 @@
-# PaneBrain 
+# Winrecall 
 (ProjectMnemonic)
 
 This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  So while it’s not a Microsoft Recall, it’s still got that recall vibe ( this is the first release)
 
 Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract. 
 
-Right now, I’m running this project under the name **“PaneBrain”** or **“Panebrain”** . And just to make sure, I'm avoiding any potential issues with MS by not using **WinRecall** as the final name. 😉
+Right now, I’m running this project under the name **“WinRecall”** or **“Winrecall”** .
 
 What started as my personal tool for archiving documents using **Tesseract OCR** has evolved over time with a deep learning model to generate rich, natural-language descriptions of your screenshots. So, if you don’t want to spend a fortune on a Copilot+PC (the only way to get Microsoft Recall), this is your **open-source** alternative.
 
-![PaneBrainApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
+![WinrecallApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
 
 ---
 
@@ -24,7 +24,7 @@ What started as my personal tool for archiving documents using **Tesseract OCR**
 
 ## Installation
 
-Run **PaneBrainApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
+Run **WinrecallApp.exe**, then click the **"Setup Environment"** button in the bottom left corner.
 
 1. The app will automatically install Python (if needed) and set up all the required dependencies.
 2. Once everything’s set up, restart the pc and you’re good to go!
@@ -54,7 +54,7 @@ Fork and clone the BLIP model from Hugging Face:
 git clone https://huggingface.co/Salesforce/blip-image-captioning-base
 ```
 ### 2. Modify describe_image.py
-In Panebrain/describe_image.py file, change lines 9-10 to load the model locally:
+In Winrecall/describe_image.py file, change lines 9-10 to load the model locally:
 
 ```
 processor = BlipProcessor.from_pretrained("./blip-image-captioning-base")

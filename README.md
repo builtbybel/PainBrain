@@ -1,11 +1,11 @@
-# Winrecall 
+# Winrecall4All 
 (ProjectMnemonic)
 
 This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  While it’s not quite Microsoft Recall, it still offers a similar experience (this is the first release).
 
 Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract.
 
-Currently, I’m running this project under the name "Winrecall".
+Currently, I’m running this project under the name "Winrecall(4All)".
 
 What started as my personal tool for archiving documents using Tesseract OCR has evolved into a deep learning model that generates rich, natural-language descriptions of your screenshots.
 

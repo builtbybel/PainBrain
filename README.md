@@ -1,13 +1,15 @@
 # Winrecall 
 (ProjectMnemonic)
 
-This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  So while it’s not a Microsoft Recall, it’s still got that recall vibe ( this is the first release)
+This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  While it’s not quite Microsoft Recall, it still offers a similar experience (this is the first release).
 
-Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract. 
+Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract.
 
-Right now, I’m running this project under the name **“WinRecall”** or **“Winrecall”** .
+Currently, I’m running this project under the name "Winrecall".
 
-What started as my personal tool for archiving documents using **Tesseract OCR** has evolved over time with a deep learning model to generate rich, natural-language descriptions of your screenshots. So, if you don’t want to spend a fortune on a Copilot+PC (the only way to get Microsoft Recall), this is your **open-source** alternative.
+What started as my personal tool for archiving documents using Tesseract OCR has evolved into a deep learning model that generates rich, natural-language descriptions of your screenshots.
+
+So, if you don’t want to invest in a Copilot+ PC (which is the only way to access Microsoft Recall, as those devices are equipped with the necessary NPU for AI-intensive tasks), this open-source alternative gives you a taste of the Copilot+ PC experience without the hefty investment.
 
 ![WinrecallApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
 

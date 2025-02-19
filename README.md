@@ -1,15 +1,19 @@
 # Winrecall4All 
 (ProjectMnemonic)
 
-This project is a portable, native app that records your screen, no data sent to Microsoft, just your privacy intact. . Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached.  While it’s not quite Microsoft Recall, it still offers a similar experience (this is the first release).
+This project is a portable, native app that records your screen—no data sent to Microsoft. Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached. While it’s not quite Microsoft Recall, it still offers a similar experience (this is the first release).
 
-Technical details: While the app uses Hugging Face’s BLIP model for cloud processing, it also works offline, with all OCR tasks handled completely locally by Tesseract.
+Why?
+Microsoft built something the world didn’t really ask for. That was my first thought, and to be honest, I’m still torn on Recall. So, I decided to recreate it myself—giving everyone the chance to explore the concept without needing a Copilot+ PC. Consider this a sneak peek at what Microsoft is pushing with Recall on Copilot+ PCs.
 
-Currently, I’m running this project under the name "Winrecall(4All)".
+And guess what? It’s already on your 24H2 system, deeply embedded into Windows and Explorer (though disabled by default). Recall is far from perfect, and this article paints a pretty accurate picture of its ups and downs: [Computerworld Hands-on with Windows Recall.](https://www.computerworld.com/article/3615775/microsoft-windows-recall-hands-on.html) I won’t dive into all the flaws and concerns here—that’s a discussion for another time. My goal? Just to show you what Microsoft is aiming for with Recall. I’ll have more thoughts on this later.
 
-What started as my personal tool for archiving documents using Tesseract OCR has evolved into a deep learning model that generates rich, natural-language descriptions of your screenshots.
+Technical Details:
+The app uses Hugging Face’s BLIP model for cloud processing but also works offline, with all OCR tasks handled locally by Tesseract.
 
-So, if you don’t want to invest in a Copilot+ PC (which is the only way to access Microsoft Recall, as those devices are equipped with the necessary NPU for AI-intensive tasks), this open-source alternative gives you a taste of the Copilot+ PC experience without the hefty investment.
+Currently, I’m running this project under the name Winrecall(4All).
+
+If you don’t want to invest in a Copilot+ PC (the only way to access Microsoft Recall, since those devices have the necessary NPUs for AI-intensive tasks), this open-source alternative lets you test the waters—without the hefty price tag.
 
 ![WinrecallApp](https://github.com/user-attachments/assets/29f4b608-8d4e-4cc8-a721-6d70cc85a606)
 

@@ -1,7 +1,7 @@
 # Winrecall4All 
 (ProjectMnemonic)
 
-This project is a portable, native app that records your screen—no data sent to Microsoft. Think of it as an alternative to Microsoft's Recall. Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached. While it’s not quite Microsoft Recall, it still offers a similar experience (this is the first release).
+This project is a lightweight, portable app designed to record everything happening on your screen.  It's like having your own personal screen recorder :grimacing: Not perfect yet, but cool if you need to capture and analyze your screen without any strings attached. While it’s not quite Microsoft Recall, it still offers a similar experience (this is the first release).
 
 Why?
 Microsoft built something the world didn’t really ask for. That was my first thought, and to be honest, I’m still torn on Recall. So, I decided to recreate it myself—giving everyone the chance to explore the concept without needing a Copilot+ PC. Consider this a sneak peek at what Microsoft is pushing with Recall on Copilot+ PCs.
